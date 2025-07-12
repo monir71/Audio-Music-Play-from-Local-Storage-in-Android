@@ -1,5 +1,5 @@
 Three Buttons:
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -43,9 +43,9 @@ Three Buttons:
         app:layout_constraintWidth_percent="0.33"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
+```
 Main Activity:
-
+```
 public class MainActivity extends AppCompatActivity {
     Button btnPlay, btnPause, btnStop;
     @Override
@@ -102,3 +102,4 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+```
